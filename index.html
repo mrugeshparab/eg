@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A beginner-friendly student portfolio website.">
+  <title>Your Name | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="logo" href="#home">YourName<span>.</span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-icon" aria-hidden="true">☰</span>
+      <span class="sr-only">Open navigation menu</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a class="nav-contact" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">STUDENT • CREATOR • CURIOUS LEARNER</p>
+        <h1>Hi, I’m <span>Your Name</span>.<br>I’m learning to build things for the web.</h1>
+        <p class="hero-text">I’m a student who enjoys technology, design, and turning ideas into projects. This is where I share what I’m learning.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">See my projects</a>
+          <a class="button button-quiet" href="#about">A little about me <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="A simple profile illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="avatar">YN</div>
+        <span class="spark spark-one" aria-hidden="true">✦</span>
+        <span class="spark spark-two" aria-hidden="true">✳</span>
+        <p>Learning by making</p>
+      </div>
+    </section>
+
+    <section class="section-wrap about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A BIT ABOUT ME</p>
+        <h2>Curious about how things work.</h2>
+      </div>
+      <div class="about-content">
+        <p>I’m <strong>Your Name</strong>, a student interested in <strong>web design and coding</strong>. I’m currently learning HTML, CSS, and JavaScript by building small projects and improving them one step at a time.</p>
+        <p>When I’m not coding, I like <strong>[your hobby]</strong>, <strong>[another hobby]</strong>, and learning new things. Replace these sample words with details you’re comfortable sharing publicly.</p>
+        <a class="text-link" href="https://github.com/yourusername">Visit my GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I’M LEARNING</p>
+          <h2>My current skills</h2>
+          <p class="section-intro">It’s okay to list things you’re still learning. Be honest about your experience.</p>
+        </div>
+        <div class="skill-list" aria-label="Skills">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub</span><span>Figma</span><span>Problem solving</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap projects-section" id="projects">
+      <div class="section-heading heading-row">
+        <div>
+          <p class="eyebrow">MADE WHILE LEARNING</p>
+          <h2>Things I’ve built</h2>
+        </div>
+        <p class="section-intro">Start small. A finished mini-project is better than a huge idea you never complete.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-lilac">
+          <div class="project-number">01</div>
+          <p class="project-type">HTML + CSS</p>
+          <h3>My first webpage</h3>
+          <p>A simple page about something I enjoy, styled with colors and fonts I chose.</p>
+          <a class="text-link" href="https://github.com/yourusername/project-one">View project <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="project-card project-peach">
+          <div class="project-number">02</div>
+          <p class="project-type">JAVASCRIPT</p>
+          <h3>Study timer</h3>
+          <p>A small timer that helps me focus on one task at a time.</p>
+          <a class="text-link" href="https://github.com/yourusername/project-two">View project <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="project-card project-mint">
+          <div class="project-number">03</div>
+          <p class="project-type">MY NEXT IDEA</p>
+          <h3>Coming soon</h3>
+          <p>Use this card for a project you’re planning, or replace it with another finished project.</p>
+          <a class="text-link" href="https://github.com/yourusername">See my code <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-box">
+        <div>
+          <p class="eyebrow">SAY HELLO</p>
+          <h2>Have a kind idea or question?</h2>
+          <p>Replace the sample email with an email address you’re okay sharing. Ask a parent or guardian before posting personal details online.</p>
+        </div>
+        <a class="button button-light" href="mailto:you@example.com">Email me <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made with curiosity by <strong>Your Name</strong>.</p>
+    <p>© <span id="current-year">2026</span> Your Name</p>
+  </footer>
+</body>
+</html>
